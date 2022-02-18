@@ -12,5 +12,5 @@ Creating a Pokemon Battle Simulator as an extension for the 42 so_long project, 
 - Basic Move Impact Animation.
 - Moving HP Animations.
 ## Current Progress:
-- Have a working Text-Based Pokemon Battle Sim up and running, with only minor bugs / fixes needed (shown in *text_based* repository above).
+- Have a working Text-Based Pokemon Battle Sim up and running, with only minor bugs / fixes needed (shown in *text-based* repository above).
 - Currently setting up and testing mlx and playing around with it.
