@@ -96,7 +96,7 @@ double ft_turn(t_Trainer* player, t_Trainer* enemy, t_Battle *battle)
 		else if (player->party[player->current].outrage == 3)
 		{
 			player->party[player->current].outrage = 0;
-			player->party[player->current].condition[1] == 'y';			
+			player->party[player->current].condition[1] = 'y';			
 			printf("%s has become Confused!\n\n", player->party[player->current].pokeName); 
 		}
 		if (enemy->party[enemy->current].outrage == 1)
@@ -334,7 +334,7 @@ double ft_turn(t_Trainer* player, t_Trainer* enemy, t_Battle *battle)
 				choice = -10;
 			}
 		}
-		if ((player->party[player->current].condition[0] == 's' && player->party[player->current].moveset[choices].moveName != "Sleep Talk") || player->party[player->current].condition[0] == 'f')
+		if ((player->party[player->current].condition[0] == 's' && ft_strcmp(player->party[player->current].moveset[choices].moveName, "Sleep Talk") == 'n' || player->party[player->current].condition[0] == 'f'))
 		{
 			// if (player->party[player->current].condition[0] == 's' && (choice == 1 && player->party[player->current].moveset[choices].getMoveName() == "SleepTalk"))
 			// {
