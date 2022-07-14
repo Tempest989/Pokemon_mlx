@@ -3,11 +3,11 @@ This Project is a Text-Based, Terminal Pokemon Battle Simulator, where the Playe
 Made from converting an old University OOP Project from C++ to C, whilst bug-fixing the remaining issues in that code.  
 This Project was done to improve upon my old C++ code and to test my skills in C to see if I could pull off the conversion from C++ to C successfully.
 Though the code is basically finished for now, there are a few known bugs that remain to be fixed currently.
-## Makefile Utility:
+# Makefile Utility:
 - `make`, `make all` and `make Text_Pokemon` will compile the Project into the executable `Text_Pokemon`.
 - `make clean` will delete, if possible, the executable `Text_Pokemon`.
 - `make run` will run `make`, then run the executable `Text_Pokemon`.
-## Current Known Bugs / Issues:
+# Current Known Bugs / Issues:
 - When the fastest Pokemon attack inflicts the Frozen status effect on the targeted Pokemon, the now Frozen, targeted Pokemon is still able to attack that turn, then it shouldn't be able to.
 - Haven't fully tested if the Confused status effect or the move Sleep Talk work correctly.
 - Make the Commands for interacting with the code more obvious and clear (-1 = back to previous option is not clear anywhere).
