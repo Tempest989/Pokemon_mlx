@@ -1,6 +1,7 @@
 # Text-Based Pokemon
-Converted an old University OOP Project from C++ to C, whilst bug-fixing the remaining issues in that code.\
-This was done to test the reliability and accuracy of the back-end function results so parts of this code can be used in creating the Pokemon Battle Simulator as an extension for the 42 so_long project.\
+This Project is a Text-Based, Terminal Pokemon Battle Simulator, where the Player, with 6, random, non-duplicate Pokemon from a pool of available Pokemon, must defeat the AI, Steven, who is Champion of Hoem is some Pokemon games, in a 1v1 battle.  
+Made from converting an old University OOP Project from C++ to C, whilst bug-fixing the remaining issues in that code.  
+This Project was done to improve upon my old C++ code and to test my skills in C to see if I could pull off the conversion from C++ to C successfully.
 Though the code is basically finished for now, there are a few known bugs that remain to be fixed currently.
 ## Makefile Utility:
 - `make`, `make all` and `make Text_Pokemon` will compile the code into the executable "Text_Pokemon".
