@@ -2,7 +2,7 @@
 Converted an old University OOP Project from C++ to C, whilst bug-fixing the remaining issues in that code.\
 This was done to test the reliability and accuracy of the back-end function results so parts of this code can be used in creating the Pokemon Battle Simulator as an extension for the 42 so_long project.\
 Though the code is basically finished for now, there are a few known bugs that remain to be fixed currently.
-## Running / Compiling Code:
+## Makefile Utility:
 - `make`, `make all` and `make Text_Pokemon` will compile the code into the executable "Text_Pokemon".
 - `make clean` will remove the created executable "Text_Pokemon".
 - `make run` will compile the code into the executable "Text_Pokemon" and then it will run the executable "Text_Pokemon".
